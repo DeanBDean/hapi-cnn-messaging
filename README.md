@@ -1,10 +1,10 @@
-# cnn-messaging-hapi
+# hapi-cnn-messaging
 
-[![NPM Package](https://img.shields.io/npm/v/cnn-messaging-hapi.svg?style=flat-square)](https://www.npmjs.org/package/cnn-messaging-hapi)
-[![Build Status](https://img.shields.io/travis/cnnlabs/cnn-messaging-hapi.svg?branch=master&style=flat-square)](https://travis-ci.org/cnnlabs/cnn-messaging-hapi)
-[![Coverage Status](https://img.shields.io/coveralls/cnnlabs/cnn-messaging-hapi.svg?branch=master&style=flat-square)](https://coveralls.io/github/cnnlabs/cnn-messaging-hapi)
+[![NPM Package](https://img.shields.io/npm/v/hapi-cnn-messaging.svg?style=flat-square)](https://www.npmjs.org/package/hapi-cnn-messaging)
+[![Build Status](https://img.shields.io/travis/cnnlabs/hapi-cnn-messaging.svg?branch=master&style=flat-square)](https://travis-ci.org/cnnlabs/hapi-cnn-messaging)
+[![Coverage Status](https://img.shields.io/coveralls/cnnlabs/hapi-cnn-messaging.svg?branch=master&style=flat-square)](https://coveralls.io/github/cnnlabs/hapi-cnn-messaging)
 
-This is a hapi.js plugin that wraps cnn-messaging-hapi to provide graceful shutdown.
+This is a hapi.js plugin that wraps hapi-cnn-messaging to provide graceful shutdown.
 
 The module creates an instance of messenger, that is bound to the hapi server object.
 
@@ -12,7 +12,7 @@ The module creates an instance of messenger, that is bound to the hapi server ob
 
 ```
 server.register({
-    register: require('cnn-messaging-hapi'),
+    register: require('hapi-cnn-messaging'),
     options: {
         amqp: {
             connectionString: 'amqp://localhost:5672',

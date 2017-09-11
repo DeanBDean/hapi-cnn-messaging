@@ -1,6 +1,6 @@
 {
-  "name": "cnn-messaging-hapi",
-  "version": "1.1.0",
+  "name": "hapi-cnn-messaging",
+  "version": "3.0.0",
   "description": "Wraps cnn-messaging module in a hapi plugin",
   "main": "index.js",
   "scripts": {
@@ -33,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cnnlabs/cnn-messaging-hapi.git"
+    "url": "git+https://github.com/cnnlabs/hapi-cnn-messaging.git"
   },
   "bugs": {
-    "url": "https://github.com/cnnlabs/cnn-messaging-hapi/issues"
+    "url": "https://github.com/cnnlabs/hapi-cnn-messaging/issues"
   },
-  "homepage": "https://github.com/cnnlabs/cnn-messaging-hapi#readme"
+  "homepage": "https://github.com/cnnlabs/hapi-cnn-messaging#readme"
 }
