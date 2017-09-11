@@ -26,6 +26,23 @@ server.register({
 });
 ```
 
+# publishing a message
+
+```
+server.app.messenger.publish(new server.app.Message({
+    context: {
+        systemId: 'test',
+        environment: 'local',
+        model: 'message',
+        objectId: 123,
+        action: 'insert'
+    },
+    event: {
+        some: 'thing'
+    }
+}));
+```
+
 See tests for further usage examples.
 
 See the documentation for [cnn-messaging](http://github.com/cnnlabs/cnn-messaging) for details.
