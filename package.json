@@ -1,6 +1,6 @@
 {
   "name": "hapi-cnn-messaging",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Wraps cnn-messaging module in a hapi plugin",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "Ian Patton <ian.patton@turner.com>",
   "license": "MIT",
   "dependencies": {
-    "cnn-messaging": "https://github.com/cnnlabs/cnn-messaging/#3.3.0"
+    "cnn-messaging": "https://github.com/cnnlabs/cnn-messaging#3.3.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
