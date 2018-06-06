@@ -18,7 +18,7 @@
   "author": "Ian Patton <ian.patton@turner.com>",
   "license": "MIT",
   "dependencies": {
-    "cnn-messaging": "https://github.com/cnnlabs/cnn-messaging#3.3.0"
+    "cnn-messaging": "https://github.com/cnnlabs/cnn-messaging#a20413f1cf38fa44ed2d26efa77ae2500fde6a4c"
   },
   "devDependencies": {
     "chai": "^3.5.0",
